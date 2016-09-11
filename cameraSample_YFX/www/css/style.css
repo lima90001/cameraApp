@@ -4,6 +4,7 @@
 /*Aquí se pueden cambiar las dimensiones de la imagen a mostrar*/
 
 .item-profile {
+  /*width: 500px;*/
   height: 500px;
   text-align: center;
 }

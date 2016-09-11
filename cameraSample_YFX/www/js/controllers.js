@@ -7,6 +7,8 @@ angular.module('controllers', [])
       //La lista completa de opciones, como la calidad,  esta en https://cordova.apache.org/docs/en/latest/reference/cordova-plugin-camera/#module_camera.CameraOptions
       var options = {
         quality: 75,
+        targetWidth: 400,
+        targetHeight: 400,
         sourceType: type
       };
 
