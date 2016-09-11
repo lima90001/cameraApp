@@ -9,10 +9,11 @@ Camera App
 
     cordova plugin add cordova-plugin-camera
 
+Las opciones para la foto estan en [https://cordova.apache.org/docs/en/latest/reference/cordova-plugin-camera/#module_camera.CameraOptions](https://cordova.apache.org/docs/en/latest/reference/cordova-plugin-camera/#module_camera.CameraOptions) 
 
-* La documentación para uso del plugin esta en [https://cordova.apache.org/docs/en/latest/reference/cordova-plugin-camera/](https://cordova.apache.org/docs/en/latest/reference/cordova-plugin-camera/)  
+* La documentación para uso del plugin, como la calidad,  esta en [https://cordova.apache.org/docs/en/latest/reference/cordova-plugin-camera/](https://cordova.apache.org/docs/en/latest/reference/cordova-plugin-camera/)  
 
-* Esta agregado un estilo en el archivo sass ubicado en [scss/ionic.app.scss](scss/ionic.app.scss).  El estilo se debe usar de la sigueinte forma
+* Esta agregado un estilo en el archivo sass ubicado en [scss/ionic.app.scss](scss/ionic.app.scss) Si se desea ajustar el tamaño se peude hacer allí con reglas CSS.  El estilo se debe usar de la sigueinte forma
 
     <ion-item class="item-profile">
         <div class="item-avatar">

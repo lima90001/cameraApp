@@ -1,4 +1,4 @@
-angular.module('cameraService', [])
+angular.module('services', [])
   .factory('CameraService', function($q) {
     return {
       getPicture: function(options) {
@@ -7,7 +7,7 @@ angular.module('cameraService', [])
         navigator.camera.getPicture(function(result) {
           q.resolve(result);
         }, function(error) {
-          q.reject(error)
+          q.reject(error);
         }, options);
 
         return q.promise;

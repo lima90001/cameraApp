@@ -19,10 +19,11 @@ $dark:                            #444 !default;
 $ionicons-font-path: "../lib/ionic/fonts" !default;
 // Include all of Ionic
 @import "www/lib/ionic/scss/ionic";
+//Aquí se pueden cambiar las dimensiones de la imagen a mostrar
 .item-profile {
-  height: 150px;
+  height: 500px;
   .item-avatar> img:first-child {
-    max-width: 100px;
-    max-height: 100px;
+    max-width: 500px;
+    max-height: 500px;
   }
 }
