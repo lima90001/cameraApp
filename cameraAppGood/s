@@ -1,0 +1,4 @@
+git add --all
+git commit -m "AutoSave"
+git push
+ionic upload

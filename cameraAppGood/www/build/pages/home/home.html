@@ -1,0 +1,66 @@
+i<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Micro Fun Lab!
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-navbar *navbar>
+  <ion-title>
+    Toma la Foto
+  </ion-title>
+</ion-navbar>
+
+<ion-content class="home">
+  <ion-card>
+    <ion-card-content>
+      Toma la foto para que veas como se podría ver tu creación!
+
+      <button (click)="takePicture()">Tomar Foto</button>
+
+      <!-- Foto Original:
+      <img [src]="base64Image" *ngIf="base64Image" style="border-radius: 9000px" />
+
+      Resultado Aproximado:
+      <img [src]="base64Image" *ngIf="base64Image" style="border-radius: 9000px" /> -->
+
+
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-content>
+
+      Foto Original:
+      <div style="border-radius: 50%">
+              <img [src]="base64Image" *ngIf="base64Image" style="margin-left:-25% margin-right:-25%"/>
+      </div>
+
+      <!-- Resultado Aproximado:
+      <img [src]="base64Image" *ngIf="base64Image" style="border-radius: 9000px" /> -->
+
+
+    </ion-card-content>
+  </ion-card>
+
+
+    <ion-card>
+      <ion-card-content>
+
+
+        <!-- Foto Original:
+        <img [src]="base64Image" *ngIf="base64Image" style="border-radius: 9000px" /> -->
+
+        Resultado Aproximado:
+        <div style="padding-left: 25%, padding-right: 25%">
+            <img [src]="base64Image" *ngIf="base64Image" style="border-radius: 50%"/>
+        </div>
+
+      </ion-card-content>
+    </ion-card>
+
+
+
+
+</ion-content>

@@ -1,4 +1,6 @@
 {
-  "name": "cameraAppGood",
-  "app_id": "178d4584"
+  "name": "cameraApp",
+  "app_id": "b1ef4349",
+  "v2": true,
+  "typescript": true
 }
