@@ -29,9 +29,16 @@
 
   <ion-pane>
     <ion-header-bar class="bar-stable">
-      <h1 class="title">Ionic Blank Starter</h1>
+      <h1 class="title">Camera Sample</h1>
     </ion-header-bar>
-    <ion-content>
+    <ion-content ng-controller="CameraCtrl as camera">
+      <ion-item class="item-profile">
+        <div class="item-avatar">
+          <img ng-src="{{ camera.picture }}">
+        </div>
+      </ion-item>
+      <button class="button button-block button-positive" ng-click="camera.takePic(1)">Tomar foto</button>
+      <button class="button button-block button-balanced" ng-click="camera.takePic(0)">Abrir galeria</button>
     </ion-content>
   </ion-pane>
 </body>

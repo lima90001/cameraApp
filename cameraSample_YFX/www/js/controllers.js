@@ -1,5 +1,5 @@
 angular.module('starter.controllers', [])
-  .controller('ChatsCtrl', function(CameraService) {
+  .controller('CameraCtrl', function(CameraService) {
 
     $scope.takePic = function(type) {
       var options = {
