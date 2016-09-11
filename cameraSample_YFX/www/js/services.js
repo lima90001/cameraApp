@@ -1,4 +1,4 @@
-angular.module('starter.cameraService', [])
+angular.module('cameraService', [])
   .factory('CameraService', function($q) {
     return {
       getPicture: function(options) {
